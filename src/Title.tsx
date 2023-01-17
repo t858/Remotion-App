@@ -1,5 +1,6 @@
 import {interpolate} from 'remotion';
 import {useCurrentFrame} from 'remotion';
+
 import React from 'react';
 
 export const Title: React.FC = () => {
@@ -9,11 +10,8 @@ export const Title: React.FC = () => {
 		extrapolateRight: 'clamp',
 	});
 	return (
-		<div
-			style={{opacity}}
-			className="text-gray-700 text-5xl font-bold leading-relaxed"
-		>
-			Welcome to Remotion with Tailwind
+		<div>
+			
 		</div>
 	);
 };

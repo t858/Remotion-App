@@ -1,0 +1,11 @@
+img{
+  animation: move 13s linear forwards infinite;
+  position: absolute;
+  right: 975px;
+}
+
+@keyframes move {
+  100%{
+    right: -800px;
+  }
+}
